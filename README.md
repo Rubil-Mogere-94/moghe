@@ -1,16 +1,81 @@
-# React + Vite
+# Moghe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Moghe is a modern, full-stack web application that combines a sleek, responsive user interface with a powerful and scalable backend. It's designed to be a launchpad for your next great idea, providing a solid foundation for a wide range of web applications.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Provide a more detailed description of your project's purpose and goals here. What problem does it solve? Who is it for?]
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Frontend:**
+    *   [React](https://reactjs.org/)
+    *   [Vite](https://vitejs.dev/)
+    *   [Material-UI](https://mui.com/)
+    *   [Emotion](https://emotion.sh/)
+    *   [React Router](httpshttps://reactrouter.com/)
+*   **Backend:**
+    *   [Python](https://www.python.org/)
+    *   [Flask](https://flask.palletsprojects.com/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+*   Node.js (>=18.x)
+*   pnpm
+*   Python 3
+
+### Installation
+
+1.  Clone the repository:
+    ```sh
+    git clone <repository-url>
+    ```
+2.  Install the frontend dependencies:
+    ```sh
+    pnpm install
+    ```
+
+### Development
+
+#### Frontend
+
+To run the Vite development server for the React frontend, use:
+
+```sh
+pnpm dev
+```
+
+#### Backend
+
+To run the Python backend server:
+
+1.  Navigate to the `server` directory:
+    ```sh
+    cd server
+    ```
+2.  Create and activate a virtual environment:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate
+    ```
+3.  Install the Python dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4.  Run the server:
+    ```sh
+    python server.py
+    ```
+
+## Available Scripts
+
+*   `pnpm dev`: Starts the development server.
+*   `pnpm build`: Builds the application for production.
+*   `pnpm lint`: Lints the source code.
+*   `pnpm preview`: Serves the production build locally.
+
+## Contributing
+
+Contributions are welcome! Please feel free to open an issue or submit a pull request.
